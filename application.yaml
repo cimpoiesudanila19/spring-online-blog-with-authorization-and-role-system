@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/cimpoiesu
+    username: root
+    password: example
+  jpa:
+    showSql: true
+    hibernate:
+      ddl-auto: create
